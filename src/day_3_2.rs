@@ -21,7 +21,7 @@ pub fn main() {
                     let number = str.parse::<i32>().unwrap();
                     if i > 0 {
                         for k in range.clone() {
-                            if let Some(ch) = schematic[i - 1].chars().nth(k as usize) {
+                            if let Some(ch) = schematic[i - 1].chars().nth(k) {
                                 if ch == '*' {
                                     data[i - 1][k].0 += 1;
                                     data[i - 1][k].1 *= number;
