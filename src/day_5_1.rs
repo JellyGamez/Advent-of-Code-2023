@@ -29,5 +29,5 @@ pub fn main() {
     for seed in mutated_seeds.iter() {
         ans = std::cmp::min(ans, *seed);
     }
-    print!("{ans}");
+    print!("{}", ans);
 }
