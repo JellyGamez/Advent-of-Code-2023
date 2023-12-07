@@ -10,7 +10,9 @@ mod day_5_1;
 mod day_5_2;
 mod day_6_1;
 mod day_6_2;
+mod day_7_1;
+mod day_7_2;
 
 fn main() {
-    day_5_2::main();
+    day_7_2::main();
 }
